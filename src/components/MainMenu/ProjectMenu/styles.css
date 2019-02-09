@@ -1,0 +1,17 @@
+.project-menu_to-projects {
+  margin: 80px 12px 0 12px; }
+  .project-menu_to-projects a {
+    text-decoration: none; }
+
+.project-menu .tree-node {
+  padding: 0; }
+
+.project-menu .itemLink {
+  padding: 8px 0; }
+  .project-menu .itemLink.active span {
+    border-bottom: 1px solid #4d8be6; }
+  .project-menu .itemLink .itemPrimary {
+    line-height: 2; }
+
+.project-menu .menu-list {
+  margin: 20px 0; }

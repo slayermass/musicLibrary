@@ -1,0 +1,54 @@
+@import "../../sass/variables";
+
+.autocomplete {
+  width: 100%;
+  margin-top: 18px;
+
+  .paper {
+      position: absolute;
+      z-index: 1000000;
+      margin-top: 2px;
+      left: 0;
+      right: 0;
+  }
+
+  .chip {
+    margin: 10px;
+  }
+
+  .chip-focused {
+    background-color: $catskill;
+  }
+
+  .value-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .single-value {
+    font-size: 16px;
+  }
+
+  .placeholder {
+    position: absolute;
+    left: 2px;
+    font-size: 16px;
+  }
+
+  .input {
+    display: flex;
+    padding: 0;
+    height: 30px;
+
+    svg {
+      cursor: pointer;
+    }
+  }
+
+  .no-options-message {
+    padding: 10px;
+  }
+}

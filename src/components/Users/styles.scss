@@ -1,0 +1,45 @@
+.users {
+  padding: 0 24px;
+  overflow: auto;
+
+  &_icon-link {
+    cursor: pointer;
+  }
+
+  &_table {
+    min-width: 1200px;
+
+    td {
+      padding: 0 4px !important;
+    }
+  }
+
+  &_action-btn {
+    width: 100%;
+  }
+
+  &_actions {
+    margin: 8px 0 !important;
+    padding: 0;
+    min-width: 75px;
+    display: flex !important;
+    justify-content: space-between;
+
+    a {
+      text-decoration: none;
+    }
+
+    div {
+      width: 48%;
+    }
+  }
+
+  &_projects-list {
+    max-width: 250px;
+
+    a {
+      padding: 4px 8px;
+      display: inline-block;
+    }
+  }
+}

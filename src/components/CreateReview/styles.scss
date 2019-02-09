@@ -1,0 +1,13 @@
+.create-review {
+  padding: 26px 41px;
+
+  &_buttons {
+    margin-top: 20px;
+    justify-content: space-between;
+    display: flex;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}

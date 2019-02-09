@@ -1,0 +1,84 @@
+@import "../../sass/_variables.scss";
+
+.main {
+  flex: 1;
+  background-color: $darkWhite;
+  height: calc(100vh - 64px);
+  margin-bottom: 40px;
+
+  .grid-control {
+    .field-control {
+      width: 100%;
+
+      input[readonly] {
+        color: $grey
+      }
+    }
+  }
+
+  .content-wrapper {
+    min-width: 400px;
+    padding: 96px 36px 30px 336px;
+  }
+
+  .table-wrapper {
+    overflow: auto;
+
+    table th, td {
+      padding: 0 4px 0 0;
+    }
+
+    .list-table-image {
+      width: 45px;
+      height: 30px;
+
+      img {
+        height: 100%;
+      }
+    }
+
+    .list-table-actions {
+      padding: 0;
+      text-align: right;
+
+      svg {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .tab {
+    border-bottom: 1px $grey solid;
+    color: $grey;
+
+    .active {
+      color: $dark;
+      opacity: 0.9;
+    }
+  }
+
+  .tab-container {
+    padding: 24px 0;
+  }
+
+  .card-actions {
+    justify-content: space-between;
+    display: flex;
+    margin: 24px 0;
+  }
+}
+
+.itemLink {
+  color: inherit;
+  display: inline-block;
+  outline: none;
+  text-decoration: none;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}

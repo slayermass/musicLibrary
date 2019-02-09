@@ -1,0 +1,8 @@
+.create-review {
+  padding: 26px 41px; }
+  .create-review_buttons {
+    margin-top: 20px;
+    justify-content: space-between;
+    display: flex; }
+    .create-review_buttons a {
+      text-decoration: none; }

@@ -1,0 +1,33 @@
+@import "./_variables.scss";
+
+.edit-card {
+  header.create-app-bar {
+    background-color: $white;
+    color: $dark;
+    box-shadow: none;
+  }
+
+  .card {
+    box-shadow: none;
+
+    .edit-card-content {
+      padding: 0 30px 30px 30px !important;
+      box-shadow: none;
+
+      input, .form-control {
+        width: 100%;
+      }
+    }
+  }
+
+  .edit-card-actions {
+    justify-content: space-between;
+    display: flex;
+    margin: 24px 0;
+  }
+
+  .card-toolbar {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}

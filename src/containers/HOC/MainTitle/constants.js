@@ -1,0 +1,2 @@
+export const SET_MAIN_TITLE = 'MAIN_TITLE';
+export const CLEAR_MAIN_TITLE = 'CLEAR_MAIN_TITLE';

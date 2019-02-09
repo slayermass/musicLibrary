@@ -1,0 +1,83 @@
+@import "../../sass/_variables.scss";
+
+.secondaryBar {
+  z-index: 0;
+}
+
+.menuButton {
+  margin-left: -8px;
+}
+
+.iconButtonAvatar {
+  padding: 4px;
+}
+
+.link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+
+  &:hover {
+    color: $white;
+  }
+}
+
+.button {
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.avatar {
+  margin-right: 5px;
+}
+
+header.main-header {
+  background-color: $darkWhite;
+  color: $dark;
+  padding-left: 315px;
+  z-index: 1100;
+  position: fixed;
+  height: 64px;
+}
+
+.username-field {
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  color: $dark;
+}
+
+// Mobile
+@media (max-width: 599.95px) {
+  header.main-header {
+    padding-left: 0;
+  }
+  .username-field {
+    display: none;
+  }
+  .main .content-wrapper {
+    padding: 20px;
+  }
+}
+
+// Tabs
+@media (max-width: 874.95px) {
+  header.main-header {
+    height: 105px;
+    padding-top: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+  }
+  .MuiIconButton-root-225 {
+    padding: 4px;
+  }
+}
+@media (max-width: 960px) {
+  header.main-header {
+    padding-left: 0;
+  }
+  .app .main .content-wrapper {
+    min-width: 320px;
+    padding: 126px 20px 30px 20px;
+  }
+}
