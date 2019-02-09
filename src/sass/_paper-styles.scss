@@ -1,0 +1,43 @@
+@import "./_variables.scss";
+
+.paper-main {
+  padding: 30px;
+  margin-bottom: 30px;
+
+  .app-bar {
+    background-color: $white;
+    box-shadow: none;
+    padding-bottom: 20px;
+  }
+
+  .toolbar {
+    padding: 0;
+    min-height: auto;
+  }
+
+  .typography {
+    color: $dark;
+  }
+
+  .actions {
+    padding: 0;
+    text-align: right;
+
+    svg {
+      cursor: pointer;
+    }
+  }
+
+  .filter div {
+    margin-right: 15px;
+
+    &:nth-last-child(1) {
+      margin-right: 0;
+    }
+  }
+
+  .empty-list {
+    text-align: center;
+    padding: 50px;
+  }
+}

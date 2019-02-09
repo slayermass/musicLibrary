@@ -1,0 +1,25 @@
+test_ci:
+  except:
+    - dev-stage
+  script:
+    - npm ci
+    - npm test
+    - npm run flow check
+    - npm run build
+  tags:
+    - sd
+
+deploy-dev:
+  only:
+    - dev-stage
+  script:
+    - npm ci
+    - npm test
+    - npm run flow check
+    - npm run build
+    - rsync --delete-after -raz -e ssh build/* s.dorgavtsev@frontend-dev.freematiq.com:eazyup
+  environment:
+    name: dev
+    url: http://eazyup.frontend-dev.freematiq.com
+  tags:
+    - sd

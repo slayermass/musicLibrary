@@ -1,0 +1,15 @@
+.image-upload .input {
+  display: none; }
+
+.image-upload .caption {
+  margin: 10px 0 !important; }
+
+.image-upload .header {
+  text-transform: uppercase;
+  margin-top: 30px !important; }
+
+.image-upload .preview {
+  width: 100px;
+  height: 100px; }
+  .image-upload .preview img {
+    height: 100%; }

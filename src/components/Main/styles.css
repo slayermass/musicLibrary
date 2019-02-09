@@ -1,0 +1,50 @@
+.main {
+  flex: 1;
+  background-color: #f5f8fa;
+  height: calc(100vh - 64px);
+  margin-bottom: 40px; }
+  .main .grid-control .field-control {
+    width: 100%; }
+    .main .grid-control .field-control input[readonly] {
+      color: #7a838b; }
+  .main .content-wrapper {
+    min-width: 400px;
+    padding: 96px 36px 30px 336px; }
+  .main .table-wrapper {
+    overflow: auto; }
+    .main .table-wrapper table th, .main .table-wrapper td {
+      padding: 0 4px 0 0; }
+    .main .table-wrapper .list-table-image {
+      width: 45px;
+      height: 30px; }
+      .main .table-wrapper .list-table-image img {
+        height: 100%; }
+    .main .table-wrapper .list-table-actions {
+      padding: 0;
+      text-align: right; }
+      .main .table-wrapper .list-table-actions svg {
+        cursor: pointer; }
+  .main .tab {
+    border-bottom: 1px #7a838b solid;
+    color: #7a838b; }
+    .main .tab .active {
+      color: #31373c;
+      opacity: 0.9; }
+  .main .tab-container {
+    padding: 24px 0; }
+  .main .card-actions {
+    justify-content: space-between;
+    display: flex;
+    margin: 24px 0; }
+
+.itemLink {
+  color: inherit;
+  display: inline-block;
+  outline: none;
+  text-decoration: none; }
+
+.grow {
+  flex-grow: 1; }
+
+.spacer {
+  flex: 1 1 auto; }

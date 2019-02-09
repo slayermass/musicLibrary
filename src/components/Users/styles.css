@@ -1,0 +1,26 @@
+.users {
+  padding: 0 24px;
+  overflow: auto; }
+  .users_icon-link {
+    cursor: pointer; }
+  .users_table {
+    min-width: 1200px; }
+    .users_table td {
+      padding: 0 4px !important; }
+  .users_action-btn {
+    width: 100%; }
+  .users_actions {
+    margin: 8px 0 !important;
+    padding: 0;
+    min-width: 75px;
+    display: flex !important;
+    justify-content: space-between; }
+    .users_actions a {
+      text-decoration: none; }
+    .users_actions div {
+      width: 48%; }
+  .users_projects-list {
+    max-width: 250px; }
+    .users_projects-list a {
+      padding: 4px 8px;
+      display: inline-block; }

@@ -1,0 +1,15 @@
+@import "../../sass/variables";
+
+.app {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  background-color: $darkWhite;
+}
+
+body {
+  .error-field {
+    color: $red
+  }
+}

@@ -1,0 +1,7 @@
+.search-bar_create-user-btn {
+  text-decoration: none;
+  position: absolute;
+  bottom: 0; }
+  @media (max-width: 991px) {
+    .search-bar_create-user-btn {
+      position: initial; } }

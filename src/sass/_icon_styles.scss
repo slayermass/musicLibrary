@@ -1,0 +1,21 @@
+@import "./variables";
+
+.delete-icon {
+  color: $red;
+  cursor: pointer;
+}
+
+.edit-icon {
+  color: $darkBlue;
+  cursor: pointer;
+}
+
+.lock-icon {
+  color: $darkBlue;
+  cursor: pointer;
+}
+
+.unlock-icon {
+  color: $darkBlue;
+  cursor: pointer;
+}

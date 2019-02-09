@@ -1,0 +1,15 @@
+$white: #fff;
+$blackSolid: #000;
+$dark: #31373c;
+$grey: #7a838b;
+$darkWhite: #f5f8fa;
+$catskill: #e9f0f4;
+$successGreen: #78c15c;
+$red: #f44336;
+$darkBlue: #4d8be6;
+$blue: #6490ff;
+$loblolly: #c1cad2;
+
+@mixin paperPadding() {
+  padding: 26px 41px;
+}
