@@ -1,0 +1,33 @@
+@import "../../../sass/variables";
+
+.project-menu {
+  &_to-projects {
+    margin: 80px 12px 0 12px;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .tree-node {
+    padding: 0;
+  }
+
+  .itemLink {
+    padding: 8px 0;
+
+    &.active {
+      span {
+        border-bottom: 1px solid $darkBlue;
+      }
+    }
+
+    .itemPrimary {
+      line-height: 2;
+    }
+  }
+
+  .menu-list {
+    margin: 20px 0;
+  }
+}
